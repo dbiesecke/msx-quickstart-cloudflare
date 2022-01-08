@@ -1,0 +1,8 @@
+name = "msx-quick"
+type = "webpack"
+webpack_config = "webpack.config.js"
+
+account_id = "25169d5343500c4d212c73e2b92c6f33"
+workers_dev = true
+route = ""
+zone_id = ""

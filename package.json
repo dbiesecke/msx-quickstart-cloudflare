@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "mytest-1",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'",
+    "build": "webpack"
+  },
+  "author": "dbiesecke <dbiesecke@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@cloudflare/wrangler": "^1.19.7",
+    "wrangler": "^0.0.4",
+    "xml-js": "*"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
